@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Transmission>
+    <Payload>
+        <PayloadHeader>
+            <PayloadID>20367951</PayloadID>
+            <TSPayloadID>35100393410323491499</TSPayloadID>
+            <Target>PROD-WDW</Target>
+            <Version>1.0</Version>
+            <Comm>
+                <Protocol>IP</Protocol>
+                <Method>Network</Method>
+            </Comm>
+            <TransmitDate>2010-09-02</TransmitDate>
+            <TransmitTime>17:26:56.55</TransmitTime>
+            <TktBroker>DTI13</TktBroker>
+            <CommandCount>1</CommandCount>
+        </PayloadHeader>
+        <Command>
+            <CommandHeader>
+                <CmdItem>1</CmdItem>
+                <CmdDuration>0.0</CmdDuration>
+                <CmdDate>2010-09-02</CmdDate>
+                <CmdTime>17:26:56.55</CmdTime>
+            </CommandHeader>
+            <QueryTicketResponse>
+                <Ticket>
+                    <TktItem>1</TktItem>
+                    <TktID>
+                        <Mag>KFGROPNMQTMQM6MK5VMTORMMM3MMYMKJTMMRFXROPNMQTMQM6MK5VMTORMM
+                            M3MMYMKJTMMR</Mag>
+                        <Barcode>12107311041000003386</Barcode>
+                        <TktDSSN>
+                            <TktDate>2010-04-11</TktDate>
+                            <TktSite>WST</TktSite>
+                            <TktStation>CAS020</TktStation>
+                            <TktNbr>17</TktNbr>
+                        </TktDSSN>
+                        <TktNID>07302011041000017</TktNID>
+                        <External />
+                    </TktID>
+                    <TktPrice>265.19</TktPrice>
+                    <TktTax>16.19</TktTax>
+                    <TktStatus>
+                        <StatusItem>Voidable</StatusItem>
+                        <StatusValue>NO</StatusValue>
+                    </TktStatus>
+                    <TktStatus>
+                        <StatusItem>Active</StatusItem>
+                        <StatusValue>YES</StatusValue>
+                    </TktStatus>
+                    <TktValidity>
+                        <ValidStart>2010-02-16</ValidStart>
+                        <ValidEnd>2011-02-16</ValidEnd>
+                    </TktValidity>
+                    <TktAttribute Resident="F" PassType="SEASONAL" PassClass="PH" MediaType="S" AgeGroup="A" />
+                </Ticket>
+            </QueryTicketResponse>
+        </Command>
+    </Payload>
+</Transmission>
