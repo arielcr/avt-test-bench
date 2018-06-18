@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Transmission>
+    <Payload>
+        <PayloadHeader>
+            <PayloadID>20384078</PayloadID>
+            <TSPayloadID>99920100903101300002</TSPayloadID>
+            <Target>PROD-WDW</Target>
+            <Version>1.0</Version>
+            <Comm>
+                <Protocol>IP</Protocol>
+                <Method>Network</Method>
+            </Comm>
+            <TransmitDate>2010-09-03</TransmitDate>
+            <TransmitTime>10:19:29.13</TransmitTime>
+            <TktBroker>DTI12</TktBroker>
+            <CommandCount>1</CommandCount>
+        </PayloadHeader>
+        <Command>
+            <CommandHeader>
+                <CmdItem>1</CmdItem>
+                <CmdDuration>0.0</CmdDuration>
+                <CmdDate>2010-09-03</CmdDate>
+                <CmdTime>10:19:29.13</CmdTime>
+            </CommandHeader>
+            <QueryTicketResponse>
+                <Ticket>
+                    <TktItem>1</TktItem>
+                    <TktID>
+                        <Mag>AFZFAA98PRETENDTICKETDATA388Y85XV88FFUFAA98PRETENDTICKETDATA388Y85XV88F
+                        </Mag>
+                    </TktID>
+                    <TktStatus>
+                        <StatusItem>Voidable</StatusItem>
+                        <StatusValue>NO</StatusValue>
+                    </TktStatus>
+                    <TktError>
+                        <TktErrorCode>850</TktErrorCode>
+                        <TktErrorType>Error</TktErrorType>
+                        <TktErrorClass>Ticket</TktErrorClass>
+                        <TktErrorText>Ticket Invalid</TktErrorText>
+                    </TktError>
+                </Ticket>
+            </QueryTicketResponse>
+        </Command>
+    </Payload>
+</Transmission>
